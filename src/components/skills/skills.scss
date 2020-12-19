@@ -41,8 +41,8 @@ div.sheet-skill {
   }
 }
 .sheet-skills-list-grouped {
-  columns: 2;
-  column-gap: 1rem;
+  columns: 3;
+  column-gap: 0.8rem;
   & > div {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
@@ -50,6 +50,10 @@ div.sheet-skill {
   }
   .sheet-skill-group {
     background-color: white;
+    max-width: 300px;
+    h4 {
+      border-bottom: 0;
+    }
   }
   ul.sheet-list-plain {
     & > li {

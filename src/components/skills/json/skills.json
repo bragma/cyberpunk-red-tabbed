@@ -136,6 +136,315 @@
       ]
     },
     {
+      "group": "Fighting",
+      "skills": [
+        {
+          "name": "Brawling",
+          "field": "skill_brawling",
+          "stat": "stat_dex",
+          "type": "standard",
+          "required": true,
+          "moto": false
+        },
+        {
+          "name": "Evasion",
+          "field": "skill_evasion",
+          "stat": "stat_dex",
+          "type": "standard",
+          "required": true,
+          "moto": false
+        },
+        {
+          "name": "Melee Weapon",
+          "field": "skill_meleeweapon",
+          "stat": "stat_dex",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Martial Arts (x2)",
+          "field": "skill_martialarts",
+          "stat": "stat_dex",
+          "type": "multiple",
+          "required": false,
+          "moto": false,
+          "fieldset": "repeating_martialarts",
+          "label": "martialartname"
+        }
+      ]
+    },
+    {
+      "group": "Ranged Weapon",
+      "skills": [
+        {
+          "name": "Archery",
+          "field": "skill_archery",
+          "stat": "stat_ref",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Autofire (x2)",
+          "field": "skill_autofire",
+          "stat": "stat_ref",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Handgun",
+          "field": "skill_handgun",
+          "stat": "stat_ref",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Heavy Weapons",
+          "field": "skill_heavyweapons",
+          "stat": "stat_ref",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Shoulder Arms",
+          "field": "skill_shoulderarms",
+          "stat": "stat_ref",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        }
+      ]
+    },
+    {
+      "group": "Social",
+      "skills": [
+        {
+          "name": "Bribery",
+          "field": "skill_bribery",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Conversation",
+          "field": "skill_conversation",
+          "stat": "stat_emp",
+          "type": "standard",
+          "required": true,
+          "moto": false
+        },
+        {
+          "name": "Human Perception",
+          "field": "skill_humanperception",
+          "stat": "stat_emp",
+          "type": "standard",
+          "required": true,
+          "moto": false
+        },
+        {
+          "name": "Interrogation",
+          "field": "skill_interrogation",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Personal Grooming",
+          "field": "skill_personalgrooming",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Persuasion",
+          "field": "skill_persuasion",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": true,
+          "moto": false
+        },
+        {
+          "name": "Streetwise",
+          "field": "skill_streetwise",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Trading",
+          "field": "skill_trading",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Wardrobe & Style",
+          "field": "skill_wardrobestyle",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        }
+      ]
+    },
+    {
+      "group": "Performance",
+      "skills": [
+        {
+          "name": "Acting",
+          "field": "skill_acting",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Play Instrument",
+          "field": "skill_playinstrument",
+          "stat": "stat_tech",
+          "type": "multiple",
+          "required": false,
+          "moto": false,
+          "fieldset": "repeating_playinstrument",
+          "label": "playinstrumentname"
+        }
+      ]
+    },
+    {
+      "group": "Technique",
+      "skills": [
+        {
+          "name": "Air Vehicle Tech",
+          "field": "skill_airvehicletech",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": true
+        },
+        {
+          "name": "Basic Tech",
+          "field": "skill_basictech",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Cybertech",
+          "field": "skill_cybertech",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Demolitions (x2)",
+          "field": "skill_demolitions",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Electronics/Security Tech (x2)",
+          "field": "skill_electronicssecurity",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "First Aid",
+          "field": "skill_firstaid",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": true,
+          "moto": false
+        },
+        {
+          "name": "Forgery",
+          "field": "skill_forgery",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Land Vehicle Tech",
+          "field": "skill_landvehicletech",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": true
+        },
+        {
+          "name": "Paint/Draw/Sculpt",
+          "field": "skill_paintdrawsculpt",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Paramedic (x2)",
+          "field": "skill_paramedic",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Photography/Film",
+          "field": "skill_photographyfilm",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Pick Lock",
+          "field": "skill_picklock",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Pick Pocket",
+          "field": "skill_pickpocket",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Sea Vehicle Tech",
+          "field": "skill_seavehicletech",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": true
+        },
+        {
+          "name": "Weaponstech",
+          "field": "skill_weaponstech",
+          "stat": "stat_tech",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        }
+      ]
+    },
+    {
       "group": "Education",
       "skills": [
         {
@@ -271,315 +580,6 @@
           "moto": false,
           "fieldset": "repeating_sciences",
           "label": "sciencename"
-        }
-      ]
-    },
-    {
-      "group": "Fighting",
-      "skills": [
-        {
-          "name": "Brawling",
-          "field": "skill_brawling",
-          "stat": "stat_dex",
-          "type": "standard",
-          "required": true,
-          "moto": false
-        },
-        {
-          "name": "Evasion",
-          "field": "skill_evasion",
-          "stat": "stat_dex",
-          "type": "standard",
-          "required": true,
-          "moto": false
-        },
-        {
-          "name": "Melee Weapon",
-          "field": "skill_meleeweapon",
-          "stat": "stat_dex",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Martial Arts (x2)",
-          "field": "skill_martialarts",
-          "stat": "stat_dex",
-          "type": "multiple",
-          "required": false,
-          "moto": false,
-          "fieldset": "repeating_martialarts",
-          "label": "martialartname"
-        }
-      ]
-    },
-    {
-      "group": "Performance",
-      "skills": [
-        {
-          "name": "Acting",
-          "field": "skill_acting",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Play Instrument",
-          "field": "skill_playinstrument",
-          "stat": "stat_tech",
-          "type": "multiple",
-          "required": false,
-          "moto": false,
-          "fieldset": "repeating_playinstrument",
-          "label": "playinstrumentname"
-        }
-      ]
-    },
-    {
-      "group": "Ranged Weapon",
-      "skills": [
-        {
-          "name": "Archery",
-          "field": "skill_archery",
-          "stat": "stat_ref",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Autofire (x2)",
-          "field": "skill_autofire",
-          "stat": "stat_ref",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Handgun",
-          "field": "skill_handgun",
-          "stat": "stat_ref",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Heavy Weapons",
-          "field": "skill_heavyweapons",
-          "stat": "stat_ref",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Shoulder Arms",
-          "field": "skill_shoulderarms",
-          "stat": "stat_ref",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        }
-      ]
-    },
-    {
-      "group": "Social",
-      "skills": [
-        {
-          "name": "Bribery",
-          "field": "skill_bribery",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Conversation",
-          "field": "skill_conversation",
-          "stat": "stat_emp",
-          "type": "standard",
-          "required": true,
-          "moto": false
-        },
-        {
-          "name": "Human Perception",
-          "field": "skill_humanperception",
-          "stat": "stat_emp",
-          "type": "standard",
-          "required": true,
-          "moto": false
-        },
-        {
-          "name": "Interrogation",
-          "field": "skill_interrogation",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Personal Grooming",
-          "field": "skill_personalgrooming",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Persuasion",
-          "field": "skill_persuasion",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": true,
-          "moto": false
-        },
-        {
-          "name": "Streetwise",
-          "field": "skill_streetwise",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Trading",
-          "field": "skill_trading",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Wardrobe & Style",
-          "field": "skill_wardrobestyle",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        }
-      ]
-    },
-    {
-      "group": "Technique",
-      "skills": [
-        {
-          "name": "Air Vehicle Tech",
-          "field": "skill_airvehicletech",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": true
-        },
-        {
-          "name": "Basic Tech",
-          "field": "skill_basictech",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Cybertech",
-          "field": "skill_cybertech",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Demolitions (x2)",
-          "field": "skill_demolitions",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Electronics/Security Tech (x2)",
-          "field": "skill_electronicssecurity",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "First Aid",
-          "field": "skill_firstaid",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": true,
-          "moto": false
-        },
-        {
-          "name": "Forgery",
-          "field": "skill_forgery",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Land Vehicle Tech",
-          "field": "skill_landvehicletech",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": true
-        },
-        {
-          "name": "Paint/Draw/Sculpt",
-          "field": "skill_paintdrawsculpt",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Paramedic (x2)",
-          "field": "skill_paramedic",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Photography/Film",
-          "field": "skill_photographyfilm",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Pick Lock",
-          "field": "skill_picklock",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Pick Pocket",
-          "field": "skill_pickpocket",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Sea Vehicle Tech",
-          "field": "skill_seavehicletech",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": true
-        },
-        {
-          "name": "Weaponstech",
-          "field": "skill_weaponstech",
-          "stat": "stat_tech",
-          "type": "standard",
-          "required": false,
-          "moto": false
         }
       ]
     }

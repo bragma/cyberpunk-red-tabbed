@@ -297,29 +297,6 @@
       ]
     },
     {
-      "group": "Performance",
-      "skills": [
-        {
-          "name": "Acting",
-          "field": "skill_acting",
-          "stat": "stat_cool",
-          "type": "standard",
-          "required": false,
-          "moto": false
-        },
-        {
-          "name": "Play Instrument",
-          "field": "skill_playinstrument",
-          "stat": "stat_tech",
-          "type": "multiple",
-          "required": false,
-          "moto": false,
-          "fieldset": "repeating_playinstrument",
-          "label": "playinstrumentname"
-        }
-      ]
-    },
-    {
       "group": "Technique",
       "skills": [
         {
@@ -580,6 +557,29 @@
           "moto": false,
           "fieldset": "repeating_sciences",
           "label": "sciencename"
+        }
+      ]
+    },
+    {
+      "group": "Performance",
+      "skills": [
+        {
+          "name": "Acting",
+          "field": "skill_acting",
+          "stat": "stat_cool",
+          "type": "standard",
+          "required": false,
+          "moto": false
+        },
+        {
+          "name": "Play Instrument",
+          "field": "skill_playinstrument",
+          "stat": "stat_tech",
+          "type": "multiple",
+          "required": false,
+          "moto": false,
+          "fieldset": "repeating_playinstrument",
+          "label": "playinstrumentname"
         }
       ]
     }
